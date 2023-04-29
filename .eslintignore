@@ -3,3 +3,4 @@ dist/**
 build/**
 public/
 .workflows
+jest.config.js
