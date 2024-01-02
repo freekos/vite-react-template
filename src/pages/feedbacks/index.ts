@@ -1,0 +1,1 @@
+export { FeedbacksPage } from './FeedbacksPage'

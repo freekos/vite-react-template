@@ -1,0 +1,66 @@
+.page {
+	&__main {
+	}
+}
+
+.contacts {
+	&__section {
+		padding: 50px 0;
+	}
+
+	&__title {
+		font-size: 2rem;
+		font-weight: 700;
+	}
+
+	&__list {
+		margin-top: 20px;
+	}
+}
+
+.contact {
+	&__table {
+		width: 100%;
+	}
+
+	&__thead {
+	}
+
+	&__thead > th {
+		border: 1px solid black;
+		padding: 10px;
+
+		text-align: center;
+	}
+
+	&__tbody {
+	}
+
+	&__tbody > tr > td {
+		border: 1px solid black;
+		padding: 5px;
+
+		text-align: center;
+	}
+
+	&__delete {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		color: red;
+		border: 1px solid red;
+		border-radius: 5px;
+		padding: 10px;
+		margin: 0 auto;
+
+		will-change: background, color;
+		transition: 0.5s background ease, 0.5s color ease;
+		cursor: pointer;
+	}
+
+	&__delete:hover {
+		color: white;
+		background: red;
+	}
+}

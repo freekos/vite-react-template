@@ -1,11 +1,14 @@
-import './index.css'
+import { Pages } from '@/pages'
+
+import './index.scss'
+import { withProvider } from './providers'
 
 function App() {
 	return (
 		<div className='app'>
-			<>App</>
+			<Pages />
 		</div>
 	)
 }
 
-export default App
+export default withProvider(App)
